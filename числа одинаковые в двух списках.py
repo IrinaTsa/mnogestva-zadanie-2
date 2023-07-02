@@ -1,0 +1,6 @@
+p1=map(int,input().split())
+p2=map(int,input().split())
+mas1=set(p1)
+mas2=set(p2)
+print(mas1.intersection(mas2))
+print(len(mas1.intersection(mas2)))
